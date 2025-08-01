@@ -121,10 +121,10 @@ const Menu = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-radius bg-primary text-primary-foreground hover:bg-opacity-90 transition-colors duration-200 mr-4">
+          <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-lg bg-gray-100 text-foreground hover:bg-gray-200 transition-colors duration-200 mr-4">
             View Full Menu
           </a>
-          <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-radius border border-border text-foreground hover:bg-accent transition-colors duration-200">
+          <a href="#" className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-lg border border-border text-foreground hover:bg-accent transition-colors duration-200">
             Wine List
           </a>
         </div>
