@@ -73,7 +73,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="grid md:grid-cols-2 gap-6">
               {contactInfo.map((info, index) => (
-                <div key={index} className="bg-card border border-gray-200 rounded-lg overflow-hidden transition-shadow hover:shadow-lg">
+                <div key={index} className="bg-gray-100 border border-gray-200 rounded-lg overflow-hidden transition-shadow hover:shadow-lg">
                   <div className="p-6 pb-4">
                     <div className="flex items-start gap-3 mb-4">
                       <div className="p-2 bg-primary bg-opacity-10 rounded-lg">
@@ -113,7 +113,7 @@ const Contact = () => {
           </div>
 
           {/* Map Placeholder */}
-          <div className="bg-card border border-gray-200 rounded-lg overflow-hidden">
+          <div className="bg-gray-100 border border-gray-200 rounded-lg overflow-hidden">
             <div className="bg-muted h-96 flex items-center justify-center rounded-lg relative">
               <div className="text-center">
                 <svg className="w-16 h-16 text-muted-foreground mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
@@ -148,7 +148,7 @@ const Contact = () => {
         </div>
 
         {/* Metro Information */}
-        <div className="bg-card border border-gray-200 rounded-lg mt-12">
+        <div className="bg-gray-100 border border-gray-200 rounded-lg mt-12">
           <div className="p-6 text-center">
             <h3 className="text-xl font-semibold mb-4">Public Transportation</h3>
             <div className="grid md:grid-cols-3 gap-6">
